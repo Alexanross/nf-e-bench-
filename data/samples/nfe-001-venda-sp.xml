@@ -1,0 +1,30 @@
+<nfeProc versao="4.00" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <NFe>
+    <infNFe Id="NFe35260912345678000195550010000000011234567890" versao="4.00">
+      <ide>
+        <nNF>1</nNF>
+        <serie>1</serie>
+        <dhEmi>2026-09-29T10:00:00-03:00</dhEmi>
+      </ide>
+      <emit>
+        <CNPJ>12345678000195</CNPJ>
+        <xNome>Empresa Emitente Exemplo LTDA</xNome>
+      </emit>
+      <dest>
+        <CPF>12345678901</CPF>
+        <xNome>Cliente Exemplo</xNome>
+      </dest>
+      <det nItem="1">
+        <prod>
+          <xProd>Produto Exemplo</xProd>
+        </prod>
+      </det>
+      <total>
+        <ICMSTot>
+          <vProd>100.00</vProd>
+          <vNF>100.00</vNF>
+        </ICMSTot>
+      </total>
+    </infNFe>
+  </NFe>
+</nfeProc>
